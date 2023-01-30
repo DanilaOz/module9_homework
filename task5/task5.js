@@ -18,8 +18,8 @@ function displayResult(apiData) {
 // Сохранение последного запоса в localStrage
 function lastSuccessfulRequest() {
     localStorage.setItem('photos_from_last_successful_request', resultNode.innerHTML);
-    console.log('Данные успешно записаны в localStorage');
-    console.log(resultNode);
+    //console.log('Данные успешно записаны в localStorage');
+    //console.log(resultNode);
 }
 
 // Получение данных из localStorage
